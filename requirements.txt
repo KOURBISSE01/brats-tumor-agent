@@ -1,0 +1,20 @@
+# --- Cœur agent (requis : tests + pipeline) ---
+pydantic>=2.0
+numpy>=1.24
+pytest>=7.0
+
+# --- Optionnel : lecture NIfTI ---
+# nibabel>=5.0
+
+# --- Optionnel : modèle DynUNet réel (sinon backend mock) ---
+# torch>=2.1
+
+# --- Optionnel : API REST ---
+# fastapi>=0.110
+# uvicorn>=0.27
+
+# --- Optionnel : explication LLM (grounding requis) ---
+# openai>=1.30
+
+# --- Optionnel : précision des composantes connexes (fallback pur Python sinon) ---
+# scipy>=1.10

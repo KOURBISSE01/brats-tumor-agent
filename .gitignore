@@ -1,0 +1,20 @@
+# Environnement
+.venv/
+venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter / OS
+.ipynb_checkpoints/
+.DS_Store
+
+# Artefacts d'exécution
+*.log
+jobs/
